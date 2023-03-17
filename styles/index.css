@@ -247,7 +247,7 @@ body::after{
     display: none;
 }
 
-.modalAtivo{
+.abreModal{
     display: flex;
 }
 
@@ -267,7 +267,7 @@ body::after{
     color: white;
     font-size: 1.7em;
     position: relative;
-    animation: modalAnimation .4s ease;
+    animation: modalAnimation .3s ease;
 }
 
 @keyframes modalAnimation {
