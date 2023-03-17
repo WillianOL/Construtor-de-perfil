@@ -5,11 +5,11 @@ const date = new Date();
 const ano = date.getFullYear()
 
 function perfilConstructor() {
-    const nomeValor = nome.value;
-    const anoValor = Number(anoNasc.value);
-    
-    if(nomeValor && anoValor === ){
-        alert('erro')
+    const nomeV = nome.value;
+    const anoV = anoNasc.value;
+
+    if(anoV.length === 0 || anoV <= 0 || nomeV.length === 0){
+        
     }
 }
 
