@@ -1,6 +1,4 @@
 const modal = document.querySelector('.conteinerModal')
-const date = new Date();
-const ano = date.getFullYear()
 const btnGerarPefil = document.querySelector('#btn_JS'); 
 
 function perfilConstructor() {
@@ -10,7 +8,9 @@ function perfilConstructor() {
     if(anoNasc.length === 0 || anoNasc <= 0 || nome.length === 0){
         modal.classList.add('modalAtivo')
     } else{
-
+        const date = new Date();
+        const ano = date.getFullYear()
+        
     }
 }
 
