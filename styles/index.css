@@ -197,3 +197,16 @@ body::after{
 .sexDado input:checked + label::before{
     background-color: rgba(255, 17, 255, 0.89)
 }
+
+.construtor_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.construtor_btn button{
+    padding: 8px;
+    border-radius: 20px;
+    border: 2px solid white;
+    
+}
