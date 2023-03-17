@@ -234,13 +234,23 @@ body::after{
     overflow: hidden;
 }
 
-.modal{
+
+.conteinerModal{
     position: absolute;
+    z-index: 1000;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+}
+
+.modal{
     text-align: center;
-    background-color: rgba(43, 42, 42, 0.863);
+    background-color: rgb(43, 42, 42);
     backdrop-filter: blur(10px);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.349);
-    z-index: 1000;
     max-width: 900px;
     padding: 20px;
     border-radius: 30px 5px;
@@ -253,7 +263,7 @@ body::after{
 }
 
 .modal img{
-    width: 450px;
+    width: 400px;
 }
 
 .modal span{
