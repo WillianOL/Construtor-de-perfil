@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil Creator</title>
+    <link rel="stylesheet" href="../styles/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <div class="conteiner">
+        <section class="infoLeft">
+            <h1>Perfil</h1>
+            <p>Preencha os dados para a <span>construção do perfil.</span></p>
+            <div class="dadosConteiner"> 
+                <div class="dado">
+                    <label for="idNome"><i class="material-symbols-outlined">person</i> </label>
+                    <input type="text" name="nome" id="idNome" autocomplete="off" placeholder="Seu nome">
+                </div>
+                <div class="dado">
+                    <label for="idAnoNascimento"><i class="material-symbols-outlined">calendar_month</i> </label>
+                    <input type="number" name="ano" id="idAnoNascimento" autocomplete="off" placeholder="Ano de nascimento">
+                </div>
+                <div class="dado">
+                    <div class="sexDado">
+                        <input type="radio" name="sex" id="sexMasc" checked class="sexRadio">
+                        <label for="sexMasc">Maculino</label>
+                    </div>
+                    <div class="sexDado">
+                        <input type="radio" name="sex" id="sexFemi" class="sexRadio">
+                        <label for="sexFemi">Feminino</label>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="infoRight">
+            <div class="fotoPerfil">
+                <img src="../img/semFotoDePefil.png" alt="usuário sem foto de identificação">
+            </div>
+            <div class="dadosPerfil">
+                <div class="nome">
+                    <p>Sem nome</p>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
