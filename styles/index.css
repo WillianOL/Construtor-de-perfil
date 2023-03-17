@@ -66,10 +66,10 @@ body::after{
 .conteiner::before{
     position: absolute;
     content: " ";
-    width: 10px;
-    height: 10px;
-    background-color: rgb(255, 102, 0);
-    border-radius: 50%;
+    width: 20px;
+    height: 6px;
+    background: linear-gradient(to right, rgb(255, 102, 0), rgb(206, 84, 3)) ;
+    border-radius: 20px;
     bottom: 20px;
     right: 30px;
 }
@@ -77,12 +77,12 @@ body::after{
 .conteiner::after{
     position: absolute;
     content: " ";
-    width: 10px;
-    height: 10px;
-    background-color: rgb(255, 17, 255);
-    border-radius: 50%;
+    width: 20px;
+    height: 6px;
+    background: linear-gradient(to right, rgb(255, 17, 255), rgb(175, 4, 175)) ;
+    border-radius: 20px;
     bottom: 20px;
-    right: 50px;
+    right: 55px;
 }
 
 .conteiner img{
