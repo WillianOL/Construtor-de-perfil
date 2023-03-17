@@ -85,12 +85,6 @@ body::after{
     right: 55px;
 }
 
-.conteiner img{
-    width: 230px;
-    border-radius: 50%;
-
-}
-
 .infoLeft{
     display: flex;
     flex-direction: column;
@@ -226,4 +220,16 @@ body::after{
     justify-content: space-evenly;
     align-items: center;
     padding-left: 20px;
+}
+
+.fotoPerfil img{
+    width: 300px;
+}
+
+.fotoPerfil{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid white;
+    overflow: hidden;
 }
