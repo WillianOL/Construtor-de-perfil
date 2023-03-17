@@ -1,16 +1,22 @@
-const nome = document.getElementById('idNome');
-const anoNasc = document.getElementById('idAnoNas');
-const btnGerarPefil = document.querySelector('#btn_JS');
+const modal = document.querySelector('.conteinerModal')
 const date = new Date();
 const ano = date.getFullYear()
+const btnGerarPefil = document.querySelector('#btn_JS'); 
 
 function perfilConstructor() {
-    const nomeV = nome.value;
-    const anoV = anoNasc.value;
+    const nome = document.getElementById('idNome').value;
+    const anoNasc = document.getElementById('idAnoNas').value;
+    
+    if(anoNasc.length === 0 || anoNasc <= 0 || nome.length === 0){
+        modal.classList.add('modalAtivo')
+    } else{
 
-    if(anoV.length === 0 || anoV <= 0 || nomeV.length === 0){
-        
     }
 }
 
 btnGerarPefil.addEventListener('click', perfilConstructor);
+
+const btnModal = document.querySelector('.btnModal')
+btnModal.addEventListener('click', () => {
+    modal.classList.remove('modalAtivo')
+})
