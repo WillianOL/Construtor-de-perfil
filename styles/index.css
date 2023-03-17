@@ -127,6 +127,10 @@ body::after{
     color: rgb(255, 17, 255);
 }
 
+.dadosConteiner{
+    margin-bottom: 50px;
+}
+
 .dado{
     display: flex;
     align-items: center;
@@ -148,15 +152,16 @@ body::after{
     width: 90%;
     padding: 8px;
     border: none;
-    border-radius: 10px 2px 0px 0px;
     background: transparent;
     border-bottom: 1px solid white;
     outline: none;
     color: white;
+    transition: all .3s ease;
 }
 
 .dado input:focus{
-    background-color: rgba(255, 17, 255, 0.164);
+    background-color: rgba(255, 17, 255, 0.137);
+    border-radius: 10px 0px;
 }
 
 .dado:last-child{
