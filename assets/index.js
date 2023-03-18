@@ -11,15 +11,17 @@ function perfilConstructor() {
     if(anoNascimento.length === 0 || anoNascimento <= 0 || nome.length === 0){
         modal.classList.add('abreModal');
     } else{
-        const date = new Date();
-        const anoAtual = date.getFullYear();
-        const resultadoIdade = anoAtual - anoNascimento;
+        let anoAtual = new Date().getFullYear();
+        const resultadoIdade = date - anoNascimento;
         const imagemPerfil = document.querySelector('.fotoPerfil img');
         const inputGenero = document.querySelectorAll('.sexDado input');
 
-        
         if(inputGenero[0].checked){
+            nameOfPersonDiv.innerHTML= `Seja bem vindo, ${nome}! <br> Você tem ${resultadoIdade} anos`;
+        }
 
+        if(inputGenero[1].checked){
+            
         }
     }
 }

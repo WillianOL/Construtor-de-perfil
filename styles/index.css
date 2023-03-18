@@ -304,3 +304,8 @@ body::after{
 .modal span{
     color: rgb(255, 17, 255);
 }
+
+.nome{
+    text-align: center;
+    font-size: 1.2em;
+}
