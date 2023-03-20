@@ -23,8 +23,8 @@ function perfilConstructor() { // Altera a foto de perfil, de acordo com gênero
     const imagemPerfil = document.querySelector('.fotoPerfil img');
     const inputGenero = document.querySelectorAll('.sexDado input');
 
-    const divDadosPefil = document.querySelector('.infoLeft')
     const divResultadoPerfil = document.querySelector('.perfilResult')
+    const divDadosPefil = document.querySelector('.infoLeft')
     
     divDadosPefil.classList.add('showInfoLeft')
     setInterval(() =>{
