@@ -14,14 +14,14 @@
         <section class="infoLeft">
             <h1>Perfil</h1>
             <p>Preencha os dados para a <span>construção do perfil.</span></p>
-            <div class="dadosConteiner">
+            <form class="dadosConteiner">
                 <div class="dado">
                     <label for="idNome"><i class="material-symbols-outlined">person</i> </label>
                     <input type="text" name="nome" id="idNome" autocomplete="off" placeholder="Seu nome">
                 </div>
                 <div class="dado">
                     <label for="idAnoNascimento"><i class="material-symbols-outlined">calendar_month</i> </label>
-                    <input type="number" name="ano" id="idAnoNas" autocomplete="off" placeholder="Ano de nascimento">
+                    <input type="number" name="ano" id="idAnoNas" autocomplete="off" placeholder="Ano de nascimento" minlength="4" maxlength="4">
                 </div>
                 <div class="dado">
                     <div class="sexDado">
@@ -33,7 +33,7 @@
                         <label for="sexFemi">Feminino</label>
                     </div>
                 </div>
-            </div>
+            </form>
 
             <div class="construtor_btn">
                 <button id="btn_JS">Construir Perfil</button>
@@ -61,9 +61,7 @@
             <div class="img_modal">
                 <img src="../img/404-error-lost-in-space-not-css.svg" alt="imagem de erro do modal">
             </div>
-            
         </div>
-        
     </div>
         
     
