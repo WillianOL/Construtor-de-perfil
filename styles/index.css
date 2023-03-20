@@ -163,6 +163,20 @@ body::after{
     text-align: center;
 }
 
+.dado:nth-child(2){
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.dado:nth-child(2) span{
+    position: absolute;
+    bottom: -10px;
+    right: 0px;
+    color: rgb(252, 79, 252);
+    font-size: 0.9em;
+    transition: .5s;
+}
+
 .sexDado label{
     position: relative;
     padding: 20px;
