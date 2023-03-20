@@ -369,7 +369,7 @@ body::after{
 
 .perfilResultShow{
     display: flex;
-    animation: perfilResultA 1s ease;
+    animation: perfilResultA 1s ease-out;
 }
 
 @keyframes perfilResultA{
