@@ -175,7 +175,25 @@ body::after{
     color: rgb(252, 79, 252);
     font-size: 0.9em;
     transition: .5s;
+    opacity: 0;
 }
+
+.anoErro{
+    border-color: rgb(255, 17, 255) !important;
+}
+
+.spanShow{
+    opacity: 1 !important;
+    animation: spanErro .5s ease 2;
+}
+
+@keyframes spanErro{
+    0%{transform: translate(0);}
+    50%{transform: translate(-5px);}
+    75%{transform: translate(5px);}
+    100%{transform: translate(0px);}
+}
+
 
 .sexDado label{
     position: relative;

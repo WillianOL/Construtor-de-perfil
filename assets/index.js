@@ -5,18 +5,15 @@ const inputAnoNascimento = document.getElementById('idAnoNas');
 const nameOfPersonDiv = document.querySelector('.nome');
 
 function dataChecker() {
-    const nome = inputName.value;
-    const anoNascimento = inputAnoNascimento.value;
+    const nomeCaracters = inputName.value.length;
+    const anoNascimentoCaracters = inputAnoNascimento.value.length;
 
-    if(anoNascimento.length === 0 || anoNascimento <= 0 || nome.length === 0){
+    if(anoNascimentoCaracters != 4 || nomeCaracters === 0){
         modal.classList.add('abreModal');
     } else{
         perfilConstructor();
     }
 }
-
-const yearElement = document.querySelector('dadoAno-js');
-
 
 function perfilConstructor() {
     const anoAtual = new Date().getFullYear();
@@ -52,7 +49,26 @@ function perfilConstructor() {
     }
 }
 
-btnGerarPefil.addEventListener('click', dataChecker);
+const yearElement = document.querySelector('.dadoAno-js');
+function inputDataVerification() {
+    const anoLenth = yearElement.value.length
+    const spanInYearDate = document.querySelector('.dado span')
+
+    if(anoLenth < 4 || anoLenth > 4){
+        yearElement.classList.add('anoErro')
+        spanInYearDate.classList.add('spanShow')
+    }
+
+    if(anoLenth === 4){
+        yearElement.classList.remove('anoErro')
+        spanInYearDate.classList.remove('spanShow')
+    }
+}
+yearElement.addEventListener('input', inputDataVerification);
+
+
+
+btnGerarPefil.addEventListener("click", dataChecker);
 
 const btnModal = document.querySelector('.btnModal');
 btnModal.addEventListener('click', () => {
