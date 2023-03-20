@@ -61,6 +61,7 @@ body::after{
     z-index: 1000;
     border-left: 1px solid rgba(255, 255, 255, 0.274);
     border-top: 1px solid rgba(255, 255, 255, 0.281);
+    overflow: hidden;
 }
 
 .conteiner::before{
@@ -277,6 +278,7 @@ body::after{
     justify-content: center;
     backdrop-filter: blur(10px);
     display: none;
+    transition: all 1s ease;
 }
 
 .abreModal{
@@ -340,4 +342,39 @@ body::after{
 .nome{
     text-align: center;
     font-size: 1.2em;
+}
+
+.perfilResult{
+    display: none;  
+    flex-direction: column;
+    padding: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.308);
+    
+}
+
+.perfilResult h1{
+    font-size: 1.8em;
+}
+
+.perfilResult h2{
+    font-size: 1.1em;
+}
+
+.perfilResult span{
+    color: rgb(255, 17, 255);
+    text-decoration: underline;
+}
+
+.showInfoLeft{
+    animation: showInfoLeft 1s ease-out forwards;
+}
+
+
+@keyframes showInfoLeft{
+    to{
+        transform: translateY(600px);
+        display: none;
+    }
 }

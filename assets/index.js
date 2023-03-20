@@ -4,7 +4,7 @@ const inputName = document.getElementById('idNome');
 const inputAnoNascimento = document.getElementById('idAnoNas');
 const nameOfPersonDiv = document.querySelector('.nome');
 
-function dataChecker() {
+function dataChecker() { // Faz a validação dos dados.
     const nomeCaracters = inputName.value.length;
     const anoNascimentoCaracters = inputAnoNascimento.value.length;
 
@@ -14,16 +14,19 @@ function dataChecker() {
         perfilConstructor();
     }
 }
+btnGerarPefil.addEventListener("click", dataChecker);
 
-function perfilConstructor() {
+function perfilConstructor() { // Altera a foto de perfil, de acordo com gênero e idade
     const anoAtual = new Date().getFullYear();
     const idade = anoAtual - inputAnoNascimento.value;
     const nome = inputName.value
     const imagemPerfil = document.querySelector('.fotoPerfil img');
     const inputGenero = document.querySelectorAll('.sexDado input');
+    const divResultadoPerfil = document.querySelector('.infoLeft')
 
+    divResultadoPerfil.classList.add('showInfoLeft')
     if(inputGenero[0].checked){
-        nameOfPersonDiv.innerHTML= `Seja bem vindo, ${nome}! <br> Você tem ${idade} anos`;
+        nameOfPersonDiv.innerHTML = `Seja bem vindo, ${nome}! <br> Você tem ${idade} anos`;
         if(idade >= 60){
             imagemPerfil.setAttribute('src', '../img/idoso-homem.jpg')
         } else if(idade >= 20){
@@ -65,10 +68,6 @@ function inputDataVerification() {
     }
 }
 yearElement.addEventListener('input', inputDataVerification);
-
-
-
-btnGerarPefil.addEventListener("click", dataChecker);
 
 const btnModal = document.querySelector('.btnModal');
 btnModal.addEventListener('click', () => {
