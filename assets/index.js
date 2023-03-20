@@ -22,9 +22,16 @@ function perfilConstructor() { // Altera a foto de perfil, de acordo com gênero
     const nome = inputName.value
     const imagemPerfil = document.querySelector('.fotoPerfil img');
     const inputGenero = document.querySelectorAll('.sexDado input');
-    const divResultadoPerfil = document.querySelector('.infoLeft')
 
-    divResultadoPerfil.classList.add('showInfoLeft')
+    const divDadosPefil = document.querySelector('.infoLeft')
+    const divResultadoPerfil = document.querySelector('.perfilResult')
+    
+    divDadosPefil.classList.add('showInfoLeft')
+    setInterval(() =>{
+        divDadosPefil.classList.add('showLeft')
+        divResultadoPerfil.classList.add('perfilResultShow')
+    }, 1000)
+
     if(inputGenero[0].checked){
         nameOfPersonDiv.innerHTML = `Seja bem vindo, ${nome}! <br> Você tem ${idade} anos`;
         if(idade >= 60){

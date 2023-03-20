@@ -367,14 +367,32 @@ body::after{
     text-decoration: underline;
 }
 
+.perfilResultShow{
+    display: flex;
+    animation: perfilResultA 1s ease;
+}
+
+@keyframes perfilResultA{
+    from{
+        transform: translateY(-600px);
+    }
+
+    to{
+        transform: translateY(0px);
+    }
+}
+
 .showInfoLeft{
     animation: showInfoLeft 1s ease-out forwards;
 }
-
 
 @keyframes showInfoLeft{
     to{
         transform: translateY(600px);
         display: none;
     }
+}
+
+.showLeft{
+    display: none;
 }
