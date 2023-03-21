@@ -23,17 +23,11 @@ function perfilConstructor() { // ALtera a imagem de perfil, calcula a idade e m
     const imagemPerfil = document.querySelector('.fotoPerfil img');
     const inputGenero = document.querySelectorAll('.sexDado input');
 
-    const divResultadoPerfil = document.querySelector('.perfilResult')
-    const divDadosPefil = document.querySelector('.infoLeft')
-    
-    divDadosPefil.classList.add('showInfoLeft')
-    setInterval(() =>{
-        divDadosPefil.classList.add('showLeft')
-        divResultadoPerfil.classList.add('perfilResultShow')
-    }, 1000)
-
-    if(inputGenero[0].checked){
-        nameOfPersonDiv.innerHTML = `Seja bem vindo, ${nome}! <br> Você tem ${idade} anos`;
+    let sexHomem = inputGenero[0].checked
+    let sexMulher = inputGenero[1].checked
+    if(sexHomem){
+        sexHomem = "Homem";
+        nameOfPersonDiv.innerHTML = `Seja bem-vindo, ${nome}! <br> Você tem ${idade} anos`;
         if(idade >= 60){
             imagemPerfil.setAttribute('src', '../img/idoso-homem.jpg')
         } else if(idade >= 20){
@@ -45,8 +39,9 @@ function perfilConstructor() { // ALtera a imagem de perfil, calcula a idade e m
         }
     }
 
-    if(inputGenero[1].checked){
-        nameOfPersonDiv.innerHTML= `Seja bem vinda, ${nome}! <br> Você tem ${idade} anos`;
+    if(sexMulher){
+        sexMulher = "mulher"
+        nameOfPersonDiv.innerHTML = `Seja bem-vinda, ${nome}! <br> Você tem ${idade} anos`;
         if(idade >= 60){
             imagemPerfil.setAttribute('src', '../img/idosa-mulher.jpg')
         } else if(idade >= 20){
@@ -57,6 +52,19 @@ function perfilConstructor() { // ALtera a imagem de perfil, calcula a idade e m
             imagemPerfil.setAttribute('src', '../img/criança-menina.jpg')
         }
     }
+
+    alteraTelaComResultado();
+}
+
+function alteraTelaComResultado() { // Faz a mudança de tela com o resuldado do perfil
+    const divResultadoPerfil = document.querySelector('.perfilResult')
+    const divDadosPefil = document.querySelector('.infoLeft')
+    
+    divDadosPefil.classList.add('showInfoLeft')
+    setInterval(() =>{
+        divDadosPefil.classList.add('showLeft')
+        divResultadoPerfil.classList.add('perfilResultShow')
+    }, 1000)
 }
 
 const yearElement = document.querySelector('.dadoAno-js');

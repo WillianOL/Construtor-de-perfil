@@ -377,10 +377,10 @@ body::after{
 
 .perfilResultShow{
     display: flex;
-    animation: perfilResultA 1s ease-out;
+    animation: perfilResultAnimation .5s ease;
 }
 
-@keyframes perfilResultA{
+@keyframes perfilResultAnimation{
     from{
         transform: translateY(-600px);
     }
