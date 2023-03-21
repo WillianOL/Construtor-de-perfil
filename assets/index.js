@@ -63,7 +63,7 @@ function perfilConstructor() { // ALtera a imagem de perfil, calcula a idade e m
             geracao = 'criança'
         }
     }
-    divDiagnosticoPerfil.innerHTML = `Olá, <span>${nome}!</span> <br> Detectamos que você é um(a) ${genero} ${geracao} de ${idade} anos.`
+    divDiagnosticoPerfil.innerHTML = `<p>Olá, <span>${nome}!</span> <br> Detectamos que você é um(a) ${genero} ${geracao} de ${idade} anos.</p>`
 
     alteraTelaComResultado();
 }
