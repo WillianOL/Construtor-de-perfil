@@ -363,16 +363,22 @@ body::after{
 }
 
 .perfilResult h1{
-    font-size: 1.8em;
+    font-size: 2em;
 }
 
 .perfilResult h2{
     font-size: 1.1em;
+    margin-bottom: 100px;
 }
 
 .perfilResult span{
     color: rgb(255, 17, 255);
     text-decoration: underline;
+}
+
+.res{
+    font-size: 1.9em;
+    color: rgb(255, 255, 255);
 }
 
 .perfilResultShow{

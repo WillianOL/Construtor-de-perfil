@@ -1,8 +1,9 @@
-const modal = document.querySelector('.conteinerModal');
 const btnGerarPefil = document.querySelector('#btn_JS');
 const inputName = document.getElementById('idNome');
 const inputAnoNascimento = document.getElementById('idAnoNas');
+const modal = document.querySelector('.conteinerModal');
 const nameOfPersonDiv = document.querySelector('.nome');
+const divDiagnosticoPerfil = document.querySelector('.perfilResult .res')
 
 function dataCheck() { // Faz a validação dos dados.
     const nomeCaracters = inputName.value.length;
@@ -25,8 +26,9 @@ function perfilConstructor() { // ALtera a imagem de perfil, calcula a idade e m
 
     let sexHomem = inputGenero[0].checked
     let sexMulher = inputGenero[1].checked
+    let genero;
     if(sexHomem){
-        sexHomem = "Homem";
+        genero = "Homem";
         nameOfPersonDiv.innerHTML = `Seja bem-vindo, ${nome}! <br> Você tem ${idade} anos`;
         if(idade >= 60){
             imagemPerfil.setAttribute('src', '../img/idoso-homem.jpg')
@@ -40,7 +42,7 @@ function perfilConstructor() { // ALtera a imagem de perfil, calcula a idade e m
     }
 
     if(sexMulher){
-        sexMulher = "mulher"
+        genero = "mulher"
         nameOfPersonDiv.innerHTML = `Seja bem-vinda, ${nome}! <br> Você tem ${idade} anos`;
         if(idade >= 60){
             imagemPerfil.setAttribute('src', '../img/idosa-mulher.jpg')
@@ -52,18 +54,19 @@ function perfilConstructor() { // ALtera a imagem de perfil, calcula a idade e m
             imagemPerfil.setAttribute('src', '../img/criança-menina.jpg')
         }
     }
+    divDiagnosticoPerfil.innerHTML = `Olá, ${nome}! detectamos que você é um(a) ${genero} de ${idade} anos.`
 
     alteraTelaComResultado();
 }
 
 function alteraTelaComResultado() { // Faz a mudança de tela com o resuldado do perfil
-    const divResultadoPerfil = document.querySelector('.perfilResult')
+    const conteinerResultadoPerfil = document.querySelector('.perfilResult')
     const divDadosPefil = document.querySelector('.infoLeft')
     
     divDadosPefil.classList.add('showInfoLeft')
     setInterval(() =>{
         divDadosPefil.classList.add('showLeft')
-        divResultadoPerfil.classList.add('perfilResultShow')
+        conteinerResultadoPerfil.classList.add('perfilResultShow')
     }, 1000)
 }
 
