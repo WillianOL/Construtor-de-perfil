@@ -4,7 +4,7 @@ const inputName = document.getElementById('idNome');
 const inputAnoNascimento = document.getElementById('idAnoNas');
 const nameOfPersonDiv = document.querySelector('.nome');
 
-function dataChecker() { // Faz a validação dos dados.
+function dataCheck() { // Faz a validação dos dados.
     const nomeCaracters = inputName.value.length;
     const anoNascimentoCaracters = inputAnoNascimento.value.length;
 
@@ -14,9 +14,9 @@ function dataChecker() { // Faz a validação dos dados.
         perfilConstructor();
     }
 }
-btnGerarPefil.addEventListener("click", dataChecker);
+btnGerarPefil.addEventListener("click", dataCheck);
 
-function perfilConstructor() { // Altera a foto de perfil, de acordo com gênero e idade
+function perfilConstructor() { // ALtera a imagem de perfil, calcula a idade e mostra o nome e idade calculada.
     const anoAtual = new Date().getFullYear();
     const idade = anoAtual - inputAnoNascimento.value;
     const nome = inputName.value
@@ -60,23 +60,23 @@ function perfilConstructor() { // Altera a foto de perfil, de acordo com gênero
 }
 
 const yearElement = document.querySelector('.dadoAno-js');
-function inputDataVerification() {
+function inputDataVerification() { // Faz a validação do input ano de nascimento
     const anoLenth = yearElement.value.length
     const spanInYearDate = document.querySelector('.dado span')
 
     if(anoLenth < 4 || anoLenth > 4){
-        yearElement.classList.add('anoErro')
-        spanInYearDate.classList.add('spanShow')
+        yearElement.classList.add('inputAnoErro')
+        spanInYearDate.classList.add('spanErro')
     }
 
     if(anoLenth === 4){
-        yearElement.classList.remove('anoErro')
-        spanInYearDate.classList.remove('spanShow')
+        yearElement.classList.remove('inputAnoErro')
+        spanInYearDate.classList.remove('spanErro')
     }
 }
 yearElement.addEventListener('input', inputDataVerification);
 
-const btnModal = document.querySelector('.btnModal');
+const btnModal = document.querySelector('.btnModal'); // Botão para fechar o modal
 btnModal.addEventListener('click', () => {
     modal.classList.remove('abreModal');
 })
