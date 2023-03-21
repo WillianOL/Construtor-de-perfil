@@ -27,17 +27,22 @@ function perfilConstructor() { // ALtera a imagem de perfil, calcula a idade e m
     let sexHomem = inputGenero[0].checked
     let sexMulher = inputGenero[1].checked
     let genero;
+    let geracao;
     if(sexHomem){
-        genero = "Homem";
+        genero = "homem";
         nameOfPersonDiv.innerHTML = `Seja bem-vindo, ${nome}! <br> Você tem ${idade} anos`;
         if(idade >= 60){
             imagemPerfil.setAttribute('src', '../img/idoso-homem.jpg')
+            geracao = 'idoso'
         } else if(idade >= 20){
             imagemPerfil.setAttribute('src', '../img/adulto-homem.jpg')
+            geracao = 'adulto'
         } else if(idade >= 12){
             imagemPerfil.setAttribute('src', '../img/adolescente-homem.jpg')
+            geracao = 'adolescente'
         } else{
             imagemPerfil.setAttribute('src', '../img/criança-menino.jpg')
+            geracao = 'criança'
         }
     }
 
@@ -46,15 +51,19 @@ function perfilConstructor() { // ALtera a imagem de perfil, calcula a idade e m
         nameOfPersonDiv.innerHTML = `Seja bem-vinda, ${nome}! <br> Você tem ${idade} anos`;
         if(idade >= 60){
             imagemPerfil.setAttribute('src', '../img/idosa-mulher.jpg')
+            geracao = 'idosa'
         } else if(idade >= 20){
             imagemPerfil.setAttribute('src', '../img/adulta-mulher.jpg')
+            geracao = 'adulta'
         } else if(idade >= 12){
             imagemPerfil.setAttribute('src', '../img/adolescente-mulher.jpg')
+            geracao = 'adolescente'
         } else{
             imagemPerfil.setAttribute('src', '../img/criança-menina.jpg')
+            geracao = 'criança'
         }
     }
-    divDiagnosticoPerfil.innerHTML = `Olá, ${nome}! detectamos que você é um(a) ${genero} de ${idade} anos.`
+    divDiagnosticoPerfil.innerHTML = `Olá, <span>${nome}!</span> <br> Detectamos que você é um(a) ${genero} ${geracao} de ${idade} anos.`
 
     alteraTelaComResultado();
 }

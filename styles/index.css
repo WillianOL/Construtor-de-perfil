@@ -205,7 +205,8 @@ body::after{
     padding: 20px;
     text-align: center;
     z-index: 1000;
-    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+    cursor: pointer;
 }
 
 .sexDado input{
@@ -223,6 +224,7 @@ body::after{
     border-radius: 20px;
     z-index: -1;
     transition: all .3s ease;
+    
 }
 
 .sexDado input:checked + label::before{
@@ -244,6 +246,7 @@ body::after{
     color: white;
     font-size: .9rem;
     transition: .3s ease;
+    cursor: pointer;
 }
 
 .construtor_btn button:hover{
@@ -278,7 +281,7 @@ body::after{
     font-size: 1.2em;
 }
 
-/* Modal de erro */
+/* Modal*/
 .conteinerModal{
     position: absolute;
     z-index: 1000;
@@ -344,6 +347,7 @@ body::after{
     background-color: rgb(255, 17, 255);
 }
 
+/* Imagem do modal */
 .modal img{
     width: 400px;
 }
@@ -362,6 +366,7 @@ body::after{
     
 }
 
+/* Conteiner do resultado de criação de perfil */
 .perfilResult h1{
     font-size: 2em;
 }
@@ -373,6 +378,9 @@ body::after{
 
 .perfilResult span{
     color: rgb(255, 17, 255);
+}
+
+.perfilResult span:last-child{
     text-decoration: underline;
 }
 
@@ -381,9 +389,10 @@ body::after{
     color: rgb(255, 255, 255);
 }
 
+/* Aparecer conteiner perfil */
 .perfilResultShow{
     display: flex;
-    animation: perfilResultAnimation .5s ease;
+    animation: perfilResultAnimation .75s ease;
 }
 
 @keyframes perfilResultAnimation{
@@ -396,13 +405,14 @@ body::after{
     }
 }
 
+/* Animação para esconder o conteiner infoLeft */
 .showInfoLeft{
     animation: showInfoLeft 1s ease-out forwards;
 }
 
 @keyframes showInfoLeft{
     to{
-        transform: translateY(600px);
+        transform: translateX(-800px);
         display: none;
     }
 }
