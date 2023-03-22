@@ -68,6 +68,7 @@ body::after{
 @media (max-width: 630px){
     .conteiner{
         flex-direction: column-reverse;
+        height: 800px;
     }
 }
 
