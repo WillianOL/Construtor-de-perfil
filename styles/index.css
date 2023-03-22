@@ -274,7 +274,7 @@ body::after{
     }
 
     .dadosConteiner{
-        margin-bottom: 10px;
+        margin-bottom: 30px;
     }
 
     .dado{
@@ -282,7 +282,7 @@ body::after{
     }
 
     .dado:nth-child(2){
-        margin-bottom: 10px;
+        margin-bottom: 30px;
     }
 }
 
