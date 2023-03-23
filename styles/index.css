@@ -97,8 +97,7 @@ body::after{
     }
 
     body{
-        overflow: auto;
-        
+        overflow: visible;
     }
 
     body::after{
