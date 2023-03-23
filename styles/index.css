@@ -96,10 +96,14 @@ body::after{
         gap: 30px;
     }
 
+    body{
+        overflow-x: hidden;
+    }
+
     body::after{
         width: 200px;
         height: 200px;
-        bottom: 100px;
+        bottom: 150px;
         left: 50px;
     }
 }
