@@ -453,7 +453,7 @@ body::after{
 
 @media (max-width: 630px){
     .perfilResult{
-        padding: 10px;
+        padding: 20px;
         margin-right: 0px;
         animation: perfilResultAnimation2 .75s ease !important;
     }
@@ -469,15 +469,15 @@ body::after{
     }
 
     .perfilResult h1{
-        font-size: 1.7em;
+        font-size: 2em;
     }
 
     .perfilResult h2{
-        margin-bottom: 20px;
+        margin-bottom: 40px;
     }
 
     .res{
-        font-size: 1.3em;
+        font-size: 1.7em;
     }
 }
 
