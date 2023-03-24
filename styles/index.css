@@ -240,7 +240,7 @@ body::after{
 
 .sexDado input + label::before{
     position: absolute;
-    left: 5px;
+    left: 6px;
     top: 15px;
     content: " ";
     width: 100px;
@@ -249,7 +249,6 @@ body::after{
     border-radius: 20px;
     z-index: -1;
     transition: all .3s ease;
-    
 }
 
 .sexDado input:checked + label::before{
