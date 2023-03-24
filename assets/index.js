@@ -86,16 +86,14 @@ const yearElement = document.querySelector(".dadoAno-js");
 // Faz a validação do input ano de nascimento
 function inputDataVerification() {
     const anoLenth = yearElement.value.length;
-    const spanInYearDate = document.querySelector(".dado span");
+    const spanNoAnoNascimento = document.querySelector(".dado span");
 
-    if (anoLenth < 4 || anoLenth > 4) {
+    if (anoLenth != 4) {
         yearElement.classList.add("inputAnoErro");
-        spanInYearDate.classList.add("spanErro");
-    }
-
-    if (anoLenth === 4) {
+        spanNoAnoNascimento.classList.add("spanErro");
+    } else {
         yearElement.classList.remove("inputAnoErro");
-        spanInYearDate.classList.remove("spanErro");
+        spanNoAnoNascimento.classList.remove("spanErro");
     }
 }
 yearElement.addEventListener("input", inputDataVerification);
