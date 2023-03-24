@@ -67,14 +67,23 @@
 #### Validação de dados
 
 <div>
-	<p>Para fazer a validação dos dados, foi criada uma função nomeada <strong>"dataCheck".</strong> Nela foram definidas <strong>duas constantes que armazenam os caracteres dos inputs de nome e ano de nascimento.</strong> Logo após, usando a estrutura condicional "else if" foi passado o seguinte argumento: <strong>se o número de caracteres do ano de nascimento for diferente de 4, ou o do nome for 0, vai abrir o modal com a mensagem de erro.</strong> Se não, vai executar a função para seguir o fluxo do código.</p>
+	<p>Para fazer a validação dos dados, através do evento no botão de gerar perfil, foi criada uma função nomeada <strong>"dataCheck".</strong> Nela foram definidas <strong>duas constantes que armazenam os caracteres dos inputs de nome e ano de nascimento.</strong> Logo após, usando a estrutura condicional "else if" foi passado o seguinte argumento: <strong>se o número de caracteres do ano de nascimento for diferente de 4, ou o do nome for 0, vai abrir o modal com a mensagem de erro.</strong> Se não, vai executar a função <strong>"perfilConstructor()"</strong> para seguir o fluxo do código.</p>
 </div>
 
 <div align="center">
 	<img align="center" src="https://user-images.githubusercontent.com/112639055/227614961-7f5030b0-4ac4-44fb-9ff3-298b477fd3d7.png" width="700px">
 </div>
 
+&nbsp;
 
+<div>
+	<p>Para indicar ao usuário que o <strong>campo de ano de nascimento precisa ter quatro caracteres,</strong> foi dedicada uma função para isso. Primeiro, uma constante foi definida para selecionar o <strong>input de ano nascimento.</strong> Nele foi criada uma <strong>função com o evento de "input" para disparar a função sempre que algo for digitado no input.</strong></p>
+	<p>Na função, foram criadas duas constantes que armazenam o número de caracteres do input ano e o span. Logo após, um "else if" com o seguinte argumento: <strong>Se o número de caracteres do input ano for diferente de 4, vai adicionar as classes ao input e span.</strong> Trocando a cor do input e exibindo o span com o aviso.</p>
+</div>
+
+<div align="center">
+	<img align="center" src="" width="700px">
+</div>
 
 
 
