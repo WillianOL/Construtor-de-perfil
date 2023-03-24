@@ -1,6 +1,6 @@
-const btnGerarPefil = document.querySelector("#btn_JS");
 const inputName = document.getElementById("idNome");
 const inputAnoNascimento = document.getElementById("idAnoNas");
+const btnGerarPefil = document.querySelector("#btn_JS");
 const modal = document.querySelector(".conteinerModal");
 const nameOfPersonDiv = document.querySelector(".nome");
 const divDiagnosticoPerfil = document.querySelector(".perfilResult .res");
