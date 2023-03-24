@@ -183,7 +183,7 @@ body::after{
 }
 
 .dado input:focus{
-    background-color: #b351d62d;
+    background-color: #b153d32d;
     border-radius: 10px 0px;
 }
 
