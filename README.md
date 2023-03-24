@@ -82,7 +82,21 @@
 </div>
 
 <div align="center">
-	<img align="center" src="" width="700px">
+	<img align="center" src="https://user-images.githubusercontent.com/112639055/227653067-a52bad55-dc77-4f05-8cb7-6d691ab1714f.png" width="700px">
+</div>
+
+&nbsp;
+&nbsp;
+
+#### Construção de perfil
+
+<div>
+	<p>Após passar pela validação de dados, a função para construir o perfil é executada.</p>
+	<p>Primeiro, duas constantes são criadas para fazer o <strong>cálculo da idade da pessoa,</strong> usando a constructor function <strong>"new Date()" com o método ".getFullYear()" foi pego o ano atual.</strong> Na constante seguinte, foi feito o cálculo da idade simplismente <strong>pegando o anoAtual e subtraindo o pelo ano de nascimento passado pelo usuário.</strong> Gerando assim a idade da pessoa.(Não é muito preciso)</p>
+</div>
+
+<div align="center">
+	<img align="center" src="https://user-images.githubusercontent.com/112639055/227656229-ba500f00-5bbb-4375-a523-36fa70ab331a.png" width="700px">
 </div>
 
 
