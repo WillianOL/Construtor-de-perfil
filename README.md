@@ -37,10 +37,11 @@
 <div>
 	<p>Projeto desenvolvido com objetivo de praticar principalmente conceitos em JavaScript, como funções, estruturas de condição, validação de dados e etc. Mas também utilizando muito de CSS e HTML em sua construção</p>
 	<p>A aplicação pega os dados fornecidos pelo usuário, que são o nome, ano de nascimento e gênero, e apartir disso gera um perfil de acordo com as informações passadas. Informando o nome do usuário, sua idade e gênero. Exibindo uma foto de uma pessoa de acordo com idade e gênero passados.</p>
+	<p>Ideia inicial tirada do canal <a href="https://www.youtube.com/@CursoemVideo">Curso em Video</a></p>
 </div>
 
 ### Acessar projeto: ✈
 
-◻<a href="https://willianol.github.io/CR7-page/assets/index.html">Construtor de Perfil</a>
+◻<a href="https://willianol.github.io/Construtor-de-perfil/assets/index.html">Construtor de Perfil</a>
 
 #
