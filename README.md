@@ -54,7 +54,7 @@
 #### Elementos importantes.
 
 <div>
-	<p>Primeiro foram selecionados os elementos inportantes para a construção da aplicação. Elementos esses como: <strong>input do nome, input do ano de nascimento, o botão de gerar perfil, modal de aviso e etc...</strong></p>
+	<p>Primeiro foram selecionados os elementos importantes para a construção da aplicação. Elementos esses como: <strong>input do nome, input do ano de nascimento, o botão de gerar perfil, modal de aviso e etc...</strong></p>
 </div>
 
 <div align="center">
@@ -99,7 +99,11 @@
 	<img align="center" src="https://user-images.githubusercontent.com/112639055/227656229-ba500f00-5bbb-4375-a523-36fa70ab331a.png" width="700px">
 </div>
 
+&nbsp;
 
+<div>
+	<p>Depois, mais duas constantes são criadas, a imagemPerfil para pegar a foto de perfil do lado direito, e a outra para pegar os radio-buttons para a verificação de gênero. Pois de acordo com o gênero selecionado, a imagem vai ser do gênero feminino ou masculino.</p>
+</div>
 
 
 
