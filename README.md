@@ -54,7 +54,7 @@
 #### Elementos importantes.
 
 <div>
-	<p>Primeiro foram selecionados os elementos inportantes para a construção da aplicação. Elementos esses como: <strong>input do nome, input do ano de nascimento, o botão de gerar perfil, modal de aviso e etc...</strong></p>
+	<p>Primeiro foram selecionados os elementos importantes para a construção da aplicação. Elementos esses como: <strong>input do nome, input do ano de nascimento, o botão de gerar perfil, modal de aviso e etc...</strong></p>
 </div>
 
 <div align="center">
@@ -99,6 +99,31 @@
 	<img align="center" src="https://user-images.githubusercontent.com/112639055/227656229-ba500f00-5bbb-4375-a523-36fa70ab331a.png" width="700px">
 </div>
 
+&nbsp;
+
+<div>
+	<p>Depois, duas constantes são criadas, <strong>a "imagemPerfil" para pegar a foto de perfil do lado direito</strong>, e a <strong>"inputGenero" para pegar os radio-buttons para a verificação de gênero.</strong> Pois de acordo com o gênero selecionado, a imagem vai mostrar uma mulher ou homem.</p>
+</div>
+
+<div align="center">
+	<img align="center" src="https://user-images.githubusercontent.com/112639055/229649609-a85dbaf2-ef25-476d-ae26-f8dd4d98b5a5.png" width="700px">
+</div>
+
+&nbsp;
+
+<div>
+	<p>Agora sim, vamos para a construção do perfil. O perfil é construido <strong>de acordo com o gênero e idade</strong> passados, nessa lógica foram criadas quatro constantes. <strong>As duas primeiras pra armazenar a condição dos IF´s posteriores</strong>, adicionando uma maior legibilidade ao código. Onde verifica se o radio-button de mulher ou homem está marcado. Depois <strong>duas vareáveis do tipo let são criadas "genero" e "geracao", ambas vazias para depois receberem um novo valor.</strong></p>
+</div>
+
+<div align="center">
+	<img align="center" src="https://user-images.githubusercontent.com/112639055/229652099-0caefcab-4fb5-49a6-9b92-77147ff9b05f.png" width="700px">
+</div>
+
+&nbsp;
+
+<div>
+	<p><strong>Duas estruturas de condição são criadas(IF),</strong> cada uma para uma situação diferente de acordo com o gênero. <strong>Se for passado masculino pelo usuário, será executado o "if" de sexHomem, se for feminino, será executado o "if" sexMulher.</strong> Na estrutura é atribuido um valor a vareável "genero" criada anteriormente, armazenando uma string "homem" ou "mulher", abaixo fazendo um innerHTML de uma mensagem de boas-vindas, com uma template string mostrando o nome e idade da pessoa.</p>
+</div>
 
 
 
