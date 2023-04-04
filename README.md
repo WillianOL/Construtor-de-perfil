@@ -132,15 +132,20 @@
 &nbsp;
 
 <div>
-	<p>No if é criada mais uma estutura de condição, que nela é verificada as idades de idoso, adulto, adolescente e criança. E em cada "if" e "else if", é definido uma imagem através do setAttrubute, mudando seu src e atribuindo um novo valor a vareável "geracao" criada anteriormente, armazenando uma string com a geração da pesssoa(idoso, adulto, adolescente ou criança).</p>
+	<p>No if é criada mais uma <strong>estutura de condição, nela se faz a principal verificação das idades, onde se for idoso, adulto, adolescente ou criança</strong> faz a devida modificação. Em cada "if" e "else if", é definido uma imagem através do <strong>setAttrubute</strong>, mudando seu src com a imagem de acordo com a idade. Depois atribuindo um novo valor a <strong>vareável "geracao" criada anteriormente, armazenando uma string com a geração da pesssoa(idoso, adulto, adolescente ou criança).</strong></p>
 </div>
 
 <div align="center">
 	<img align="center" src="https://user-images.githubusercontent.com/112639055/229784922-26dbb0c7-d258-4cee-9acd-ef14b719a5e5.png" width="700px">
 </div>
 
+&nbsp;
 
+#### Estrutura completa:
 
+<div align="center">
+	<img align="center" src="https://user-images.githubusercontent.com/112639055/229944694-2f69aeba-a662-448a-95e7-ab65382e3423.png" width="700px">
+</div>
 
 
 
