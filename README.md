@@ -119,5 +119,18 @@
 	<img align="center" src="https://user-images.githubusercontent.com/112639055/229652099-0caefcab-4fb5-49a6-9b92-77147ff9b05f.png" width="700px">
 </div>
 
+&nbsp;
+
+<div>
+	<p><strong>Duas estruturas de condição são criadas(IF),</strong> cada uma para uma situação diferente de acordo com o gênero. <strong>Se for passado masculino pelo usuário, será executado o "if" de sexHomem, se for feminino, será executado o "if" sexMulher.</strong> Na estrutura é atribuido um valor a vareável "genero" criada anteriormente, armazenando uma string "homem" ou "mulher", abaixo fazendo um innerHTML de uma mensagem de boas-vindas, com uma template string mostrando o nome e idade da pessoa.</p>
+</div>
+
+
+
+
+
+
+
+
 
 
