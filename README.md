@@ -122,7 +122,21 @@
 &nbsp;
 
 <div>
-	<p><strong>Duas estruturas de condição são criadas(IF),</strong> cada uma para uma situação diferente de acordo com o gênero. <strong>Se for passado masculino pelo usuário, será executado o "if" de sexHomem, se for feminino, será executado o "if" sexMulher.</strong> Na estrutura é atribuido um valor a vareável "genero" criada anteriormente, armazenando uma string "homem" ou "mulher", abaixo fazendo um innerHTML de uma mensagem de boas-vindas, com uma template string mostrando o nome e idade da pessoa.</p>
+	<p><strong>Duas estruturas de condição são criadas(IF),</strong> cada uma para uma situação diferente de acordo com o gênero. <strong>Se for passado masculino pelo usuário, será executado o "if" de sexHomem, se for feminino, será executado o "if" sexMulher.</strong> Na estrutura é atribuido um valor a vareável <strong>"genero"</strong> criada anteriormente, <strong>armazenando uma string "homem" ou "mulher".</strong> Abaixo fazendo um innerHTML de uma mensagem de boas-vindas, <strong>com uma template string mostrando o nome e idade da pessoa.</strong></p>
+</div>
+
+<div align="center">
+	<img align="center" src="https://user-images.githubusercontent.com/112639055/229781873-6308a15b-db7f-4fcc-ae4f-c6a10ff4ab47.png" width="700px">
+</div>
+
+&nbsp;
+
+<div>
+	<p>No if é criada mais uma estutura de condição, que nela é verificada as idades de idoso, adulto, adolescente e criança. E em cada "if" e "else if", é definido uma imagem através do setAttrubute, mudando seu src e atribuindo um novo valor a vareável "geracao" criada anteriormente, armazenando uma string com a geração da pesssoa(idoso, adulto, adolescente ou criança).</p>
+</div>
+
+<div align="center">
+	<img align="center" src="https://user-images.githubusercontent.com/112639055/229784922-26dbb0c7-d258-4cee-9acd-ef14b719a5e5.png" width="700px">
 </div>
 
 
