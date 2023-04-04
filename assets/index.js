@@ -25,7 +25,7 @@ function perfilConstructor() {
     const nome = inputName.value;
     const imagemPerfil = document.querySelector(".fotoPerfil img");
     const inputGenero = document.querySelectorAll(".sexDado input");
-    
+
     const sexHomem = inputGenero[0].checked;
     const sexMulher = inputGenero[1].checked;
     let genero;
