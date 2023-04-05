@@ -147,6 +147,15 @@
 	<img align="center" src="https://user-images.githubusercontent.com/112639055/229944694-2f69aeba-a662-448a-95e7-ab65382e3423.png" width="700px">
 </div>
 
+&nbsp;
+
+<div>
+	<p>Logo após, na vareável que armazena a div onde vai ser exposto o resultado<strong>(divDiagnosticoPerfil),</strong> é feito um <strong>".innerHTML" com uma template string mostrando o nome do usuário, gênero, geração e idade.</strong> Em baixo executando a função que vai esconder o formulário e mostrar a tela de resultado.</p>
+</div>
+
+<div align="center">
+	<img align="center" src="https://user-images.githubusercontent.com/112639055/229947776-f6554ea0-771c-40d6-9e66-b9ff0fcee87c.png" width="700px">
+</div>
 
 
 
