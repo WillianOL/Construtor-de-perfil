@@ -66,7 +66,7 @@ function perfilConstructor() {
         }
     }
     divDiagnosticoPerfil.innerHTML = `<p>Olá, <span>${nome}!</span> <br> Detectamos que você é um(a) ${genero} ${geracao} de ${idade} anos.</p>`;
-
+    
     alteraTelaComResultado();
 }
 
@@ -75,9 +75,9 @@ function alteraTelaComResultado() {
     const conteinerResultadoPerfil = document.querySelector(".perfilResult");
     const divDadosPefil = document.querySelector(".infoLeft");
 
-    divDadosPefil.classList.add("showInfoLeft");
+    divDadosPefil.classList.add("hideInfoLeft");
     setInterval(() => {
-        divDadosPefil.classList.add("showLeft");
+        divDadosPefil.classList.add("hideInfoLeftDisplay");
         conteinerResultadoPerfil.classList.add("perfilResultShow");
     }, 1000);
 }

@@ -511,17 +511,16 @@ body::after{
 }
 
 /* Animação para esconder o conteiner infoLeft */
-.showInfoLeft{
-    animation: showInfoLeft 1s ease-out forwards;
+.hideInfoLeft{
+    animation: hideInfoLeft 1s ease-out forwards;
 }
 
-@keyframes showInfoLeft{
+@keyframes hideInfoLeft{
     to{
         transform: translateX(-800px);
-        display: none;
     }
 }
 
-.showLeft{
+.hideInfoLeftDisplay{
     display: none;
 }
