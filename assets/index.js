@@ -73,11 +73,11 @@ function perfilConstructor() {
 // Faz a mudança de tela com o resuldado do perfil
 function alteraTelaComResultado() {
     const conteinerResultadoPerfil = document.querySelector(".perfilResult");
-    const divDadosPefil = document.querySelector(".infoLeft");
+    const divDadosPerfil = document.querySelector(".infoLeft");
 
-    divDadosPefil.classList.add("hideInfoLeft");
+    divDadosPerfil.classList.add("hideInfoLeft");
     setInterval(() => {
-        divDadosPefil.classList.add("hideInfoLeftDisplay");
+        divDadosPerfil.classList.add("hideInfoLeftDisplay");
         conteinerResultadoPerfil.classList.add("perfilResultShow");
     }, 1000);
 }
