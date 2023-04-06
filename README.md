@@ -71,6 +71,7 @@
 </div>
 
 <div align="center">
+	<img align="center" src="https://user-images.githubusercontent.com/112639055/230364395-96abd759-dd89-40b3-8463-953aa9f44a2f.png" width="700px">
 	<img align="center" src="https://user-images.githubusercontent.com/112639055/227614961-7f5030b0-4ac4-44fb-9ff3-298b477fd3d7.png" width="700px">
 </div>
 
@@ -156,6 +157,36 @@
 
 <div align="center">
 	<img align="center" src="https://user-images.githubusercontent.com/112639055/229947776-f6554ea0-771c-40d6-9e66-b9ff0fcee87c.png" width="700px">
+</div>
+
+&nbsp;
+
+#### Tela de resultado
+
+<div>
+	<p>Depois do processo de criação do perfil, a <strong>função para mostrar a tela com o resultado é executada.</strong></p>
+	<p>Na função <strong>"alteraTelaComResultado()"</strong>, são definidas duas constantes, "conteinerResultadoPerfil" com a <strong>div onde vai ser colocado o resultado do perfil</strong>, e "divDadosPerfil" <strong>que é o formulário.</strong> Depois através do classList é adicionado uma classe ao formulário(divDadosPerfil), onde no css vai disparar uma animação movendo o formulário para a esquerda.</p>
+</div>
+
+<div align="center">
+	<img align="center" src="https://user-images.githubusercontent.com/112639055/230368548-8a87ed51-089a-4bdd-affd-b676ed6d3daf.png" width="700px">
+</div>
+
+&nbsp;
+
+<div>
+	<p>Usando o método setInterval(), é criada uma arrow-function com um delay de 1000ms(1s) para acontecer, assim dando tempo do formulário sair da tela. Na função é adicionado duas classes através do classList, uma no conteinerResultadoPerfil e outra divDadosPerfil. Fazendo no css a tela com o resultado ser exibida ao usuário vindo de cima da tela, dando um efeito visual agradável :).</p>
+</div>
+
+<div align="center">
+	<img align="center" src="https://user-images.githubusercontent.com/112639055/230374076-db3c6998-7cb0-4ab6-a21e-bee7c5d2b903.png" width="700px">
+</div>
+
+#### Resultado:
+
+
+<div align="center">
+	<img align="center" src="https://user-images.githubusercontent.com/112639055/230375678-00f5e021-55b5-4f23-8d8b-f3ff9da4dfa8.gif" width="700px">
 </div>
 
 
