@@ -58,7 +58,7 @@
 </div>
 
 <div align="center">
-	<img align="center" src="https://user-images.githubusercontent.com/112639055/227611020-51b6dacd-954b-4ea7-bf0a-870b44261bbd.png" width="700px">
+	<img align="center" src="https://user-images.githubusercontent.com/112639055/230724657-fcf69056-3134-4a33-8370-3e4ac2c4f642.png" width="700px">
 </div>
 
 &nbsp;
@@ -72,7 +72,7 @@
 
 <div align="center">
 	<img align="center" src="https://user-images.githubusercontent.com/112639055/230364395-96abd759-dd89-40b3-8463-953aa9f44a2f.png" width="700px">
-	<img align="center" src="https://user-images.githubusercontent.com/112639055/227614961-7f5030b0-4ac4-44fb-9ff3-298b477fd3d7.png" width="700px">
+	<img align="center" src="https://user-images.githubusercontent.com/112639055/230724746-2f00a70a-e267-48f5-b500-25d083d0602d.png" width="700px">
 </div>
 
 &nbsp;
@@ -84,7 +84,7 @@
 
 <div align="center">
 	<img align="center" src="https://user-images.githubusercontent.com/112639055/230080853-24f8d724-232f-4420-a7a5-86e42247e31e.png" width="700px">
-	<img align="center" src="https://user-images.githubusercontent.com/112639055/227653067-a52bad55-dc77-4f05-8cb7-6d691ab1714f.png" width="700px">
+	<img align="center" src="https://user-images.githubusercontent.com/112639055/230724936-bde453a8-9b4e-42ab-92c8-d01d5fa47ddd.png" width="700px">
 </div>
 
 &nbsp;
@@ -98,7 +98,7 @@
 </div>
 
 <div align="center">
-	<img align="center" src="https://user-images.githubusercontent.com/112639055/227656229-ba500f00-5bbb-4375-a523-36fa70ab331a.png" width="700px">
+	<img align="center" src="https://user-images.githubusercontent.com/112639055/230725046-729ec679-1612-4453-8860-c16e2a72cf3b.png" width="700px">
 </div>
 
 &nbsp;
@@ -108,7 +108,7 @@
 </div>
 
 <div align="center">
-	<img align="center" src="https://user-images.githubusercontent.com/112639055/229649609-a85dbaf2-ef25-476d-ae26-f8dd4d98b5a5.png" width="700px">
+	<img align="center" src="https://user-images.githubusercontent.com/112639055/230725216-10222af7-5d66-45a3-935a-e3567e67470d.png" width="700px">
 </div>
 
 &nbsp;
@@ -118,7 +118,7 @@
 </div>
 
 <div align="center">
-	<img align="center" src="https://user-images.githubusercontent.com/112639055/229652099-0caefcab-4fb5-49a6-9b92-77147ff9b05f.png" width="700px">
+	<img align="center" src="https://user-images.githubusercontent.com/112639055/230725333-494030a3-30be-4b3d-8133-c44da76c2046.png" width="700px">
 </div>
 
 &nbsp;
@@ -128,7 +128,7 @@
 </div>
 
 <div align="center">
-	<img align="center" src="https://user-images.githubusercontent.com/112639055/229781873-6308a15b-db7f-4fcc-ae4f-c6a10ff4ab47.png" width="700px">
+	<img align="center" src="https://user-images.githubusercontent.com/112639055/230725461-a6e7e42f-dbaa-4247-ac4f-dcb49a139b3e.png" width="700px">
 </div>
 
 &nbsp;
@@ -138,7 +138,7 @@
 </div>
 
 <div align="center">
-	<img align="center" src="https://user-images.githubusercontent.com/112639055/229784922-26dbb0c7-d258-4cee-9acd-ef14b719a5e5.png" width="700px">
+	<img align="center" src="https://user-images.githubusercontent.com/112639055/230725584-b33585e1-5517-4780-92da-d0dc51d9275c.png" width="700px">
 </div>
 
 &nbsp;
@@ -146,7 +146,7 @@
 #### Estrutura completa:
 
 <div align="center">
-	<img align="center" src="https://user-images.githubusercontent.com/112639055/229944694-2f69aeba-a662-448a-95e7-ab65382e3423.png" width="700px">
+	<img align="center" src="https://user-images.githubusercontent.com/112639055/230725680-f02b9105-a1af-4456-b105-6e5e2272b569.png" width="700px">
 </div>
 
 &nbsp;
@@ -156,7 +156,7 @@
 </div>
 
 <div align="center">
-	<img align="center" src="https://user-images.githubusercontent.com/112639055/229947776-f6554ea0-771c-40d6-9e66-b9ff0fcee87c.png" width="700px">
+	<img align="center" src="https://user-images.githubusercontent.com/112639055/230725779-85e7803b-34ac-4f55-8b89-27e4e6cf43cb.png" width="700px">
 </div>
 
 &nbsp;
@@ -169,7 +169,7 @@
 </div>
 
 <div align="center">
-	<img align="center" src="https://user-images.githubusercontent.com/112639055/230368548-8a87ed51-089a-4bdd-affd-b676ed6d3daf.png" width="700px">
+	<img align="center" src="https://user-images.githubusercontent.com/112639055/230725898-e4816a60-e019-4405-af08-fa026d6b73d0.png" width="700px">
 </div>
 
 &nbsp;
@@ -179,7 +179,7 @@
 </div>
 
 <div align="center">
-	<img align="center" src="https://user-images.githubusercontent.com/112639055/230374076-db3c6998-7cb0-4ab6-a21e-bee7c5d2b903.png" width="700px">
+	<img align="center" src="https://user-images.githubusercontent.com/112639055/230726007-539f090d-8d77-4f9e-9300-9c892ac84174.png" width="700px">
 </div>
 
 #### Resultado:
