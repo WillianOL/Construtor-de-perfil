@@ -82,8 +82,9 @@ function alteraTelaComResultado() {
     }, 1000);
 }
 
-const yearElement = document.querySelector(".dadoAno-js");
 // Faz a validação do input ano de nascimento
+const yearElement = document.querySelector(".dadoAno-js");
+
 function inputDataVerification() {
     const anoLenth = yearElement.value.length;
     const spanNoAnoNascimento = document.querySelector(".dado span");
